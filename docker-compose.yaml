@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    container_name: go-web-app-compose
+    expose:
+      - 8080
+    command: ["./go-web-app"]
+    ports:
+      - "8080:8080"
+    
