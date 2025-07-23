@@ -2,5 +2,5 @@ replicaCount: 2
 containerPort: 8080
 
 image:
-  repository: karanlakhadive96/go-deployment
+  repository: karanlakhadive96/go-deployment:latest
   
